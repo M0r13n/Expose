@@ -24,25 +24,22 @@
 \maketitle
 
 \section{Motivation}
-Gamification ist definiert als der Einsatz spieltypischer Elemente in einem spielfremden Kontext \citep{deterding_game_2011} und zielt in aller Regel auf eine Motivationssteigerung ab \citep{takahashi_gamification_2010}. Anwendungsgebiete, in denen Gamification erfolgreich eingesetzt werden kann, sind Forschung \citep{brauer_erhohung_2019}, Gesundheit und Fitness \citep{johnson_gamification_2016} und Bildung \citep{de_freitas_prepared_2006}. Insbesondere im Bildungsbereich konnte gezeigt werden, dass Gamification einen positiven Einfluss auf Motivation und Leistung haben kann \citep{ibanez_gamification_2014}, da der Lernerfolg wesentlich durch Motivation, Interesse und Engagement der Lernenden bedingt ist \citep{astin_student_1984}. Allerdings ist Gamification kein Allheilmittel. Zunächst erfordert das Design und die Umsetzung von Spielelementen Arbeit und stellt damit einen Mehraufwand für Lehrende dar. Gleichzeitig konnte gezeigt werden, dass Gamification eine Reduzierung der Leistung, unerwünschte Seiteneffekte, Ineffizienz und sogar einen Motivationsverlust zur Folge haben kann \citep{toda_dark_2018}. Aus diesem Grund ist die jeweilige Umsetzung von Gamification auf ihren Nutzen hin zu untersuchen und zu bewerten. Ein solches Anwendungsfeld ist die Kommandozeile. Die Kommandozeile ist zentrales Element moderner Betriebssysteme und für die Softwareentwicklung und Administration unerlässlich. Da die Kommandozeile eine rein textbasierte Schnittstelle bietet, stellt diese für viele Einsteiger eine neue Art der Mensch-Maschine-Interaktion dar. Das Erlernen eben dieser kann anfänglich mit einem hohen Maß an Frustration verbunden sein. So ist es wenig verwunderlich, dass es eine Vielzahl unterschiedlicher Spiele gibt, deren Ziel darin besteht, die Grundlagen der Kommandozeile spielend zu vermitteln. Diese Art der Spiele wird als Serious Game bezeichnet. Damit sind Spiele gemeint, deren Zweck nicht ausschließlich in der Unterhaltung besteht \citep{djaouti_classifying_2011} und die beispielsweise ein Lernziel verfolgen. Eine kurze Suche\footnote{Link: https://github.com/topics/terminal-game} nach dem Begriff \glqq terminal-game\grqq{} auf der Code-Hosting-Plattform GitHub bringt (Stand Mai 2020) über 300 Ergebnisse hervor. Trotz der offensichtlichen Popularität wurde die Effektivität dieser Spiele bisher nicht empirisch untersucht und verifiziert. Das Ziel dieser Arbeit besteht daher in der Analyse der Wirksamkeit und Effektivität der Spielelemente Abzeichen, Fortschrittsanzeige und Rangliste hinsichtlich Motivation und Leistung.
+Gamification ist definiert als der Einsatz spieltypischer Elemente in einem spielfremden Kontext \citep{deterding_game_2011} und zielt in aller Regel auf eine Motivationssteigerung ab \citep{takahashi_gamification_2010}. Anwendungsgebiete, in denen Gamification erfolgreich eingesetzt werden kann, sind Forschung \citep{brauer_erhohung_2019}, Gesundheit und Fitness \citep{johnson_gamification_2016} und Bildung \citep{de_freitas_prepared_2006}. Insbesondere im Bildungsbereich konnte gezeigt werden, dass Gamification einen positiven Einfluss auf Motivation und Leistung haben kann \citep{ibanez_gamification_2014}, da der Lernerfolg wesentlich durch Motivation, Interesse und Engagement der Lernenden bedingt ist \citep{astin_student_1984}. Allerdings ist Gamification kein Allheilmittel. Zunächst erfordert das Design und die Umsetzung von Spielelementen Arbeit und stellt damit einen Mehraufwand für Lehrende dar. Gleichzeitig konnte gezeigt werden, dass Gamification eine Reduzierung der Leistung, unerwünschte Seiteneffekte, Ineffizienz und sogar einen Motivationsverlust zur Folge haben kann \citep{toda_dark_2018}. Aus diesem Grund ist die jeweilige Umsetzung von Gamification auf ihren Nutzen hin zu untersuchen und zu bewerten. Ein solches Anwendungsfeld ist die Kommandozeile. Die Kommandozeile ist zentrales Element moderner Betriebssysteme und für die Softwareentwicklung und Administration unerlässlich. Da die Kommandozeile eine rein textbasierte Schnittstelle bietet, stellt diese für viele Einsteiger eine neue Art der Mensch-Maschine-Interaktion dar. Das Erlernen eben dieser kann anfänglich mit einem hohen Maß an Frustration verbunden sein. So ist es wenig verwunderlich, dass es eine Vielzahl unterschiedlicher Spiele gibt, deren Ziel darin besteht, die Grundlagen der Kommandozeile spielend zu vermitteln. Diese Art der Spiele wird als Serious Game bezeichnet. Eine kurze Suche\footnote{Link: https://github.com/topics/terminal-game} nach dem Begriff \glqq terminal-game\grqq{} auf der Code-Hosting-Plattform GitHub bringt (Stand Mai 2020) über 300 Ergebnisse hervor. Die dabei am häufigsten verwendeten Spielelemente sind u.a. Abzeichen und Progressbar.
+Trotz der offensichtlichen Popularität wurde die Effektivität dieser Spielelemente im Kontext der Kommandozeile bisher nicht empirisch untersucht und verifiziert. Das Ziel dieser Arbeit besteht daher in der Analyse der Wirkung der Spielelemente Abzeichen und Fortschrittsanzeige hinsichtlich Motivation und Leistung.
 
 
 \section{Literatur- und Theorieüberblick}
-Gamification ist ein aktives Forschungsgebiet und definiert als der Einsatz von spieltypischen Elementen in einem spielfremden Kontext \citep{deterding_game_2011}. 
+Gamification ist ein aktives Forschungsgebiet und ist definiert als der Einsatz von spieltypischen Elementen in einem spielfremden Kontext \citep{deterding_game_2011}. 
 Die Wirksamkeit von Gamification konnte für unterschiedlichste Einsatzgebiete empirisch nachgewiesen werden \citep{koivisto_rise_2019} und hat sich in der Forschung zur Mensch-Computer-Interaktion etabliert \citep{huotari_defining_2012}. 
 Bereiche, in denen die Wirksamkeit von Gamification gezeigt werden konnte, sind Forschung/ Open Science \citep{brauer_erhohung_2019,kidwell_badges_2016}, Gesundheit und Fitness \citep{johnson_gamification_2016}, Marketing \citep{huotari_defining_2012} oder Produktion und Logistik \citep{warmelink_gamification_2018}.
 Ein weiteres aktives Forschungsfeld ist der Einsatz von Spielmechaniken in der Bildung \citep{ibanez_gamification_2014,landers_enhancing_2017}. Da der Lernerfolg wesentlich durch Motivation, Interesse und Engagement der Lernenden bedingt ist \citep{astin_student_1984}, sind Spielmechaniken ein vielversprechendes Mittel, um die Leistung der Lernenden zu erhöhen.
 Dieser Bereich zählt neben Gesundheit und Fitness zu den empirisch am besten untersuchten Anwendungsgebieten in der Gamificationforschung \citep{koivisto_rise_2019}.
 So wurden positive Effekte auf Motivation und Leistung mehrfach der Praxis nachgewiesen \citep{ibanez_gamification_2014,hamzah_influence_2015,strmecki_gamification_2015}. \cite{layth_khaleel_empirical_2019} konnten eine Verbesserung der Lernleistung im Kontext von Programmieraufgaben feststellen. Zu ähnlichen Ergebnissen kommen \cite{ortiz_gamification_2017}. Anzumerken ist jedoch, dass Letztere zwar eine Verbesserung des Engagements feststellen konnten, allerdings keine Auswirkungen auf die Motivation erkennbar war.
 
-% Vorstellung der drei Abzeichen - Abzeichen
-Die in dieser Arbeit behandelten Spielmechaniken sind Abzeichen, Fortschrittsbalken und Bestenliste.
+% Vorstellung der zwei Abzeichen - Abzeichen
+Die in dieser Arbeit behandelten Spielmechaniken sind Abzeichen und Fortschrittsbalken.
 Das Spielelement Abzeichen ist dabei bereits mehrfach empirisch untersucht und seine Wirksamkeit belegt worden. Im Kontext der Gamification bezeichnen Abzeichen digitale, visuelle Artefakte, die dem Nutzer für die Erfüllung definierter Aufgaben verliehen werden \citep{antin_badges_2011}. Wie \cite{hamari_badges_2017} zeigen konnte, führt die Einführung von Abzeichen zu einer signifikanten Steigerung der Nutzerinteraktion.
 Einen ähnlich positiver Effekt auf das Lernverhalten von Studenten konnte durch \cite{hamzah_influence_2015} nachgewiesen werden.
-
-% Bestenliste
-Neben dem Abzeichen zählt auch die Bestenliste zu den am häufigsten eingesetzten Spielmechaniken. Positive Effekte auf die Leistung konnten durch \cite{brauer_badges_2019} und \cite{mekler_points_2013} belegt werden.
-Anzumerken ist dabei, dass im Falle von \cite{mekler_points_2013} zwar eine Leistungssteigerung feststellbar war, allerdings keine nachweisbare Verbesserung der intrinsischen Motivation erkennbar war.
 
 % Progressbar
 Etwas weniger Forschungsergebnisse finden sich bezüglich des Einsatzes einer Fortschrittsanzeige \citep{koivisto_rise_2019}.
@@ -50,11 +47,11 @@ Etwas weniger Forschungsergebnisse finden sich bezüglich des Einsatzes einer Fo
 
 % Kirtik 
 Trotz der empirisch belegten Wirksamkeit der genannten Spielmechaniken, sind die Ergebnisse nicht immer eindeutig und positiv.
-So konnte \cite{ortiz_gamification_2017} zwar eine statistisch signifikante Verbesserung des Engagements der Lernenden feststellen.
+So konnten \cite{ortiz_gamification_2017} durch den Einsatz von Abzeichen zwar eine statistisch signifikante Verbesserung des Engagements der Lernenden feststellen.
 Allerdings war keine Verbesserung der Leistung und intrinsischen Motivation erkennbar.
 \cite{toda_dark_2018} weißt sogar auf die Gefahr einer Reduzierung der Leistung, unerwünschter Seiteneffekte und potentiellem Motivationsverlust hin.
 Zu ähnlichen Ergebnissen kommen \cite{liu_examining_2017}.
-So verzeichneten Umfragen mit Fortschrittsbalken geringere Abschlussquoten als Umfragen ohne Fortschrittsindikatoren. \cite{dominguez_gamifying_2013} stellten in einem pädagogischen Kontext fest, dass Abzeichen zwar einen positiven Einfluss auf praktische Aufgaben haben, aber potentiell negativ auf schriftliche Abgaben wirken. Der Einsatz von Spielmechaniken ist damit möglicherweise mit wünschenswerten Effekten auf Leistung, Motivation und Engagement verbunden. Jedoch sind die Maßnahmen in jedem Einzelfall genau zu überprüfen und auf ihre Wirksamkeit hin zu untersuchen.
+So verzeichneten Umfragen mit Fortschrittsbalken geringere Abschlussquoten als Umfragen ohne Fortschrittsindikatoren. \cite{dominguez_gamifying_2013} stellten in einem pädagogischen Kontext fest, dass Abzeichen zwar einen positiven Einfluss auf praktische Aufgaben haben, aber potentiell negativ auf schriftliche Abgaben wirken. Der Einsatz von Spielmechaniken ist damit möglicherweise mit wünschenswerten Effekten auf Leistung, Motivation und Engagement verbunden. Daher sind die Maßnahmen in jedem Einzelfall genau zu überprüfen und auf ihre Wirksamkeit hin zu untersuchen.
 
 % Serious Games
 Serious Games sind Spiele, die nicht ausschließlich der reinen Unterhaltung dienen, sondern primär auf die Vermittlung von Wissen abzielen \citep[S.17]{michael_serious_2005}.
@@ -70,6 +67,39 @@ Typischerweise besteht das Ziel in der Vermittlung bestimmter Fähigkeiten, wie 
 Derartige Spiele fallen unter den Oberbegriff Edutainment \citep{egenfeldt-nielsen_overview_2006}.
 Diese Art der Spiele bietet den Spielern befriedigende Aufgaben, die zu der Entwicklung von neuen Fähigkeiten und Strategien führt \citep{stapleton_serious_2004}.
 \cite{vlachopoulos_effect_2017} bestätigen die umfassende empirische Evidenz in Bezug auf kognitive Lernergebnisse einschließlich Wissenserwerb, konzeptuelle Anwendung und Inhaltsverständnis.
+
+\newpage
+
+\section{Fragestellung und Zielsetzung}
+
+\subsection{Fragestellung}
+Im Rahmen der Arbeit werden die Spielelemente Abzeichen und Fortschrittsbalken in eine Webanwendung integriert, die der Vermittlung grundlegender Kommandozeilenbefehlen dient.
+Anschließend wird der Einfluss der Spielelemente hinsichtlich Motivation und Leistung der Benutzer untersucht.
+Die zugrundeliegende Forschungsfrage lautet:
+
+\begin{itemize}
+\item Haben die Spielmechaniken Abzeichen und Fortschrittsbalken einen messbaren Einfluss auf das Durchhaltevermögen der Teilnehmer (gemessen durch die Anzahl beantworteter Fragen bei sukzessiv steigender Komplexität)?
+\end{itemize}
+
+
+Daraus leiten sich die folgenden Hypothesen ab:
+
+\begin{itemize}
+\item H1: Probanden, die Abzeichen erhalten, beantwortet im Mittel eine höhere Anzahl an
+Fragen als eine Kontrollgruppe ohne Achievements.
+\item H2: Die Integration eines Fortschrittsbalken erhöht die Gesamtzahl beantworteter Fragen gegenüber einer Kontrollgruppe ohne Fortschrittsbalken.
+\end{itemize}
+
+\subsection{Zielgruppe}
+Die Ergebnisse sind für alle Personen interessant, die Berührungspunkte mit der Kommandozeile habe.
+Hervorzuheben sind insbesondere Schüler und Studenten, die keinerlei bestehende Erfahrung mit einer rein textbasierten Nutzerschnittstelle haben.
+Die entstehende Anwendung könnte zukünftig dazu dienen, Einsteigern bei dem Erlernen der Kommandozeile zu unterstützen.
+Gleichzeitig liefert die Arbeit weitere empirische Daten hinsichtlich der Wirkung von Abzeichen und Fortschrittsanzeige.
+
+\subsection{Abgrenzung}
+Bisherige Arbeiten haben die Wirksamkeit von Abzeichen und Fortschrittsbalken in den unterschiedlichsten Kontexten empirisch untersucht.
+Die Ergebnisse deuten dabei auf ein positives Potential hinsichtlich der Wirkung der Spielelement auf Motivation, Leistung und Durchhaltevermögen hin. Allerdings sind die Ergebnisse nicht immer reproduzierbar und variieren je nach Kontext teilweise stark. Teilweise konnten sogar negative und unerwünschte Nebeneffekte festgestellt werden. Dies verdeutlicht, dass die Implementation von Gamification in jedem Einzelfall individuell zu prüfen und zu evaluieren ist.
+Obwohl es eine Vielzahl existierender Serious Games, mit dem Ziel des Erlernens der Kommandozeile, gibt, die diese Spielmechaniken einsetzen, wurde die Wirksamkeit der Maßnahmen bisher noch nicht untersucht. Diese Lücke versucht diese Arbeit zu schließen.
 
 
 
