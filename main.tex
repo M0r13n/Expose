@@ -78,7 +78,7 @@ Anschließend wird der Einfluss der Spielelemente hinsichtlich Motivation und Le
 Die zugrundeliegende Forschungsfrage lautet:
 
 \begin{itemize}
-\item Haben die Spielmechaniken Abzeichen und Fortschrittsbalken einen messbaren Einfluss auf das Durchhaltevermögen der Teilnehmer (gemessen durch die Anzahl beantworteter Fragen bei sukzessiv steigender Komplexität)?
+\item Haben die Spielmechaniken Abzeichen und Fortschrittsbalken einen messbaren Einfluss auf Motivation und Durchhaltevermögen der Teilnehmer (gemessen durch die Anzahl beantworteter Fragen)?
 \end{itemize}
 
 
@@ -101,6 +101,19 @@ Bisherige Arbeiten haben die Wirksamkeit von Abzeichen und Fortschrittsbalken in
 Die Ergebnisse deuten dabei auf ein positives Potential hinsichtlich der Wirkung der Spielelement auf Motivation, Leistung und Durchhaltevermögen hin. Allerdings sind die Ergebnisse nicht immer reproduzierbar und variieren je nach Kontext teilweise stark. Teilweise konnten sogar negative und unerwünschte Nebeneffekte festgestellt werden. Dies verdeutlicht, dass die Implementation von Gamification in jedem Einzelfall individuell zu prüfen und zu evaluieren ist.
 Obwohl es eine Vielzahl existierender Serious Games, mit dem Ziel des Erlernens der Kommandozeile, gibt, die diese Spielmechaniken einsetzen, wurde die Wirksamkeit der Maßnahmen bisher noch nicht untersucht. Diese Lücke versucht diese Arbeit zu schließen.
 
+\section{Methoden}
+Das Ziel des Experiments ist es, zu prüfen, ob die Spielmechaniken Abzeichen und Fortschrittsbalken einen messbaren Einfluss auf Motivation und Durchhaltevermögen der Teilnehmer im Kontext des Erlernens der Kommandozeile haben. Dazu wird ein Onlineexperiment durchgeführt. Das Experiment besteht aus einer interaktiven Konsolenanwendung, die im Browser läuft. Eine Nutzung ist von jedem Endgerät, das über einen aktuellen Browser verfügt, möglich. Im Rahmen des Experiments wird den Teilnehmern eine vordefinierte Menge an Fragen bezüglich der Kommandozeile gestellt. Die Fragen lassen sich durch die Eingabe eines Kommandozeilenbefehls lösen. Dazu wird die Ausgabe des eingegebenen Befehls mit der erwarteten Ausgabe verglichen. Sind beide Werte identisch, ist die Frage korrekt beantwortet. Eine Frage kann beliebig oft beantwortet werden, bis ein korrektes Ergebnis erzielt wurde. Erst nach der erfolgreichen Bearbeitung einer Frage kann die nächste Frage beantwortet werden.
+In allen Versuchsbedingungen erhalten die Teilnehmer eine sofortige Rückmeldung über die korrekte Beantwortung einer Frage. Damit die Ergebnisse untereinander vergleichbar sind, werden identische Frage in gleicher Reihenfolge gestellt.
+In einem Pretest der Anwendung soll diese auf ihren Unterhaltungswert geprüft werden. Damit wird sichergestellt, dass die Teilnehmer nicht durch das Benutzen der Anwendung selber motiviert sind. 
+  
+Die Teilnehmer werden randomisiert und dauerhaft einer von drei möglichen Versuchsgruppen zugewiesen. Nach Beendigung des Experiments wird die durchschnittliche Anzahl an  bearbeiteten Fragen zwischen den Experimentalgruppen verglichen. Die vollständige Bearbeitung des Experiments soll 15-20 Minuten dauern. Ein vorzeitiger Abbruch ist jeder Zeit möglich.
+
+Das Spielelement Abzeichen wird durch fünf verschiedene Abzeichen realisiert. Die Abzeichen werden für das Erreichen bestimmter Meilensteine verliehen. Diese Meilensteine sind so gewählt, dass diese möglichst gleichmäßig über die Dauer des Experiments verteilt sind. Alle Abzeichen sind anfänglich grau hinterlegt und für den Teilnehmer jederzeit sichtbar in einer Leiste angeordnet.
+
+Das Spielelement Fortschrittsanzeige wird durch einen Balken in der oberen, linken Ecke des Konsolenfensters realisiert. Dieser wird abhängig von der Anzahl beantworteter Fragen gefüllt. Dieser wird aber nur in zufälligen Abständen aktualisiert. Dies stellt sicher, dass die Teilnehmer nicht direkt auf die Dauer des Experimentes schließen können.
+
+Das Experiment soll über einen möglichst langen Zeitraum laufen. Als Mindestdauer gilt eine Woche. Anschließend erfolgt eine quantitative Auswertung der Ergebnisse. Dabei werden nur Teilnehmer, die mindestens eine Fragen beantwortet haben, berücksichtigt. Mehrfachteilnahmen werden durch die Überprüfung der IP-Adresse ausgeschlossen. In diesem Fall gilt nur die erste Teilnahme. Der Einfluss der unabhängigen Variablen, Abzeichen und Fortschrittsanzeige, auf die abhängige Variable Motivation wird durch die Anzahl beantworteter Fragen gemessen. Der Vergleich der mittleren Anzahl beantworteter Fragen zwischen Experimentalgruppe und Kontrollgruppen gibt anschließend Auskunft über den Effekt der unabhängigen Variablen.
+
 
 
 \bibliography{expose}
@@ -112,4 +125,4 @@ Obwohl es eine Vielzahl existierender Serious Games, mit dem Ziel des Erlernens 
 % on the APA6 document class:
 %
 % http://www.ctan.org/pkg/apa6
-%
+%s
