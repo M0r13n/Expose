@@ -10,6 +10,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{mathptmx} % Für Times New Roman Font
+\usepackage[onehalfspacing]{setspace} % Für 1,5x fachen Zeilenabstand
 \usepackage[colorinlistoftodos]{todonotes}
 
 \setlength {\marginparwidth }{2cm} 
@@ -103,18 +104,41 @@ Obwohl es eine Vielzahl existierender Serious Games, mit dem Ziel des Erlernens 
 
 \section{Methoden}
 Das Ziel des Experiments ist es, zu prüfen, ob die Spielmechaniken Abzeichen und Fortschrittsbalken einen messbaren Einfluss auf Motivation und Durchhaltevermögen der Teilnehmer im Kontext des Erlernens der Kommandozeile haben. Dazu wird ein Onlineexperiment durchgeführt. Das Experiment besteht aus einer interaktiven Konsolenanwendung, die im Browser läuft. Eine Nutzung ist von jedem Endgerät, das über einen aktuellen Browser verfügt, möglich. Im Rahmen des Experiments wird den Teilnehmern eine vordefinierte Menge an Fragen bezüglich der Kommandozeile gestellt. Die Fragen lassen sich durch die Eingabe eines Kommandozeilenbefehls lösen. Dazu wird die Ausgabe des eingegebenen Befehls mit der erwarteten Ausgabe verglichen. Sind beide Werte identisch, ist die Frage korrekt beantwortet. Eine Frage kann beliebig oft beantwortet werden, bis ein korrektes Ergebnis erzielt wurde. Erst nach der erfolgreichen Bearbeitung einer Frage kann die nächste Frage beantwortet werden.
-In allen Versuchsbedingungen erhalten die Teilnehmer eine sofortige Rückmeldung über die korrekte Beantwortung einer Frage. Damit die Ergebnisse untereinander vergleichbar sind, werden identische Frage in gleicher Reihenfolge gestellt.
 In einem Pretest der Anwendung soll diese auf ihren Unterhaltungswert geprüft werden. Damit wird sichergestellt, dass die Teilnehmer nicht durch das Benutzen der Anwendung selber motiviert sind. 
   
-Die Teilnehmer werden randomisiert und dauerhaft einer von drei möglichen Versuchsgruppen zugewiesen. Nach Beendigung des Experiments wird die durchschnittliche Anzahl an  bearbeiteten Fragen zwischen den Experimentalgruppen verglichen. Die vollständige Bearbeitung des Experiments soll 15-20 Minuten dauern. Ein vorzeitiger Abbruch ist jeder Zeit möglich.
+Die Teilnehmer werden randomisiert und dauerhaft einer von drei möglichen Versuchsgruppen zugewiesen:
+
+\begin{itemize}
+\item Eine Kontrollgruppe, in welcher die Probanden die Fragen ohne die Unterstützung durch ein Spielelement beantworten. 
+\item  Eine Experimentalgruppe, die durch das Spielelement Abzeichen unterstützt wird.
+\item  Eine Experimentalgruppe, die durch das Spielelement Fortschrittsanzeige unterstützt wird. 
+\end{itemize}
+
+Die Gruppen unterscheiden sich ausschließlich hinsichtlich der eingesetzten Spielelemente.
+In allen Versuchsbedingungen erhalten die Teilnehmer eine sofortige Rückmeldung über die korrekte Beantwortung einer Frage. Damit die Ergebnisse untereinander vergleichbar sind, werden identische Frage in gleicher Reihenfolge gestellt.
+Nach Beendigung des Experiments wird die durchschnittliche Anzahl an  bearbeiteten Fragen zwischen den Experimentalgruppen verglichen. Die vollständige Bearbeitung des Experiments soll 15-20 Minuten dauern. Ein vorzeitiger Abbruch ist jeder Zeit möglich.
 
 Das Spielelement Abzeichen wird durch fünf verschiedene Abzeichen realisiert. Die Abzeichen werden für das Erreichen bestimmter Meilensteine verliehen. Diese Meilensteine sind so gewählt, dass diese möglichst gleichmäßig über die Dauer des Experiments verteilt sind. Alle Abzeichen sind anfänglich grau hinterlegt und für den Teilnehmer jederzeit sichtbar in einer Leiste angeordnet.
 
 Das Spielelement Fortschrittsanzeige wird durch einen Balken in der oberen, linken Ecke des Konsolenfensters realisiert. Dieser wird abhängig von der Anzahl beantworteter Fragen gefüllt. Dieser wird aber nur in zufälligen Abständen aktualisiert. Dies stellt sicher, dass die Teilnehmer nicht direkt auf die Dauer des Experimentes schließen können.
 
-Das Experiment soll über einen möglichst langen Zeitraum laufen. Als Mindestdauer gilt eine Woche. Anschließend erfolgt eine quantitative Auswertung der Ergebnisse. Dabei werden nur Teilnehmer, die mindestens eine Fragen beantwortet haben, berücksichtigt. Mehrfachteilnahmen werden durch die Überprüfung der IP-Adresse ausgeschlossen. In diesem Fall gilt nur die erste Teilnahme. Der Einfluss der unabhängigen Variablen, Abzeichen und Fortschrittsanzeige, auf die abhängige Variable Motivation wird durch die Anzahl beantworteter Fragen gemessen. Der Vergleich der mittleren Anzahl beantworteter Fragen zwischen Experimentalgruppe und Kontrollgruppen gibt anschließend Auskunft über den Effekt der unabhängigen Variablen.
+Das Experiment soll über einen möglichst langen Zeitraum laufen. Als Mindestdauer gilt eine Woche. Anschließend erfolgt eine quantitative Auswertung der Ergebnisse. Dabei werden nur Teilnehmer, die mindestens eine Fragen beantwortet haben, berücksichtigt. Mehrfachteilnahmen werden durch die Überprüfung der IP-Adresse ausgeschlossen. In diesem Fall gilt nur die erste Teilnahme. 
 
+Der Einfluss der unabhängigen Variablen, Abzeichen und Fortschrittsanzeige, auf die abhängige Variable Motivation wird durch die Anzahl beantworteter Fragen gemessen. Der Vergleich der mittleren Anzahl beantworteter Fragen zwischen Experimentalgruppe und Kontrollgruppen gibt anschließend Auskunft über den Effekt der unabhängigen Variablen.
 
+\section{Zeitplan}
+
+Zeitraum: 01.05.2020 - 31.08.2020
+
+\begin{description}
+\item[Bis 17.05.:]\hfill \\ Weitere Literaturrecherche + Hintergrundwissen + Beginn technische Umsetzung
+\item[Bis 31.05.:]\hfill \\ Technische Implementation der Webanwendung
+\item[Bis 04.06.:]\hfill \\ Pretest Webanwendung
+\item[Bis 28.06.:]\hfill \\ Experiment laufen lassen. Parallel dazu: Rohfassung Einleitung + Theorie + Methodik + Technische Dokumentation
+\item[Bis 31.07.:]\hfill \\ Rohfassung Ergebnisse + Diskussion. Parallel dazu: Feedback zur Einleitung und zum Theorieteil einholen. 
+\item[Bis 14.08.:]\hfill \\  Rücksprache mit Hr. Mazarakis + Nachbesserungen
+
+\end{description}
 
 \bibliography{expose}
 
