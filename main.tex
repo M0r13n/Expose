@@ -25,8 +25,11 @@
 \maketitle
 
 \section{Motivation}
-Gamification ist definiert als der Einsatz spieltypischer Elemente in einem spielfremden Kontext \citep{deterding_game_2011} und zielt in aller Regel auf eine Motivationssteigerung ab \citep{takahashi_gamification_2010}. Anwendungsgebiete, in denen Gamification erfolgreich eingesetzt werden kann, sind Forschung \citep{brauer_erhohung_2019}, Gesundheit und Fitness \citep{johnson_gamification_2016} und Bildung \citep{de_freitas_prepared_2006}. Insbesondere im Bildungsbereich konnte gezeigt werden, dass Gamification einen positiven Einfluss auf Motivation und Leistung haben kann \citep{ibanez_gamification_2014}, da der Lernerfolg wesentlich durch Motivation, Interesse und Engagement der Lernenden bedingt ist \citep{astin_student_1984}. Allerdings ist Gamification kein Allheilmittel. Zunächst erfordert das Design und die Umsetzung von Spielelementen Arbeit und stellt damit einen Mehraufwand für Lehrende dar. Gleichzeitig konnte gezeigt werden, dass Gamification eine Reduzierung der Leistung, unerwünschte Seiteneffekte, Ineffizienz und sogar einen Motivationsverlust zur Folge haben kann \citep{toda_dark_2018}. Aus diesem Grund ist die jeweilige Umsetzung von Gamification auf ihren Nutzen hin zu untersuchen und zu bewerten. Ein solches Anwendungsfeld ist die Kommandozeile. Die Kommandozeile ist zentrales Element moderner Betriebssysteme und für die Softwareentwicklung und Administration unerlässlich. Da die Kommandozeile eine rein textbasierte Schnittstelle bietet, stellt diese für viele Einsteiger eine neue Art der Mensch-Maschine-Interaktion dar. Das Erlernen eben dieser kann anfänglich mit einem hohen Maß an Frustration verbunden sein. So ist es wenig verwunderlich, dass es eine Vielzahl unterschiedlicher Spiele gibt, deren Ziel darin besteht, die Grundlagen der Kommandozeile spielend zu vermitteln. Diese Art der Spiele wird als Serious Game bezeichnet. Eine kurze Suche\footnote{Link: https://github.com/topics/terminal-game} nach dem Begriff \glqq terminal-game\grqq{} auf der Code-Hosting-Plattform GitHub bringt (Stand Mai 2020) über 300 Ergebnisse hervor. Die dabei am häufigsten verwendeten Spielelemente sind u.a. Abzeichen und Progressbar.
-Trotz der offensichtlichen Popularität wurde die Effektivität dieser Spielelemente im Kontext der Kommandozeile bisher nicht empirisch untersucht und verifiziert. Das Ziel dieser Arbeit besteht daher in der Analyse der Wirkung der Spielelemente Abzeichen und Fortschrittsanzeige hinsichtlich Motivation und Leistung.
+Gamification ist definiert als der Einsatz spieltypischer Elemente in einem spielfremden Kontext \citep{deterding_game_2011} und zielt in aller Regel auf eine Motivationssteigerung ab \citep{takahashi_gamification_2010}. Anwendungsgebiete, in denen Gamification erfolgreich eingesetzt werden kann, sind Forschung \citep{brauer_erhohung_2019}, Gesundheit und Fitness \citep{johnson_gamification_2016} und Bildung \citep{de_freitas_prepared_2006}. Insbesondere im Bildungsbereich konnte gezeigt werden, dass Gamification einen positiven Einfluss auf Motivation und Leistung haben kann \citep{ibanez_gamification_2014}, da der Lernerfolg wesentlich durch Motivation, Interesse und Engagement der Lernenden bedingt ist \citep{astin_student_1984}. Allerdings erfordert das Design und die Umsetzung von Spielelementen Arbeit und stellt damit einen Mehraufwand für Lehrende dar. Gleichzeitig konnte gezeigt werden, dass Gamification eine Reduzierung der Leistung, unerwünschte Seiteneffekte, Ineffizienz und sogar einen Motivationsverlust zur Folge haben kann \citep{toda_dark_2018}. Aus diesem Grund ist die jeweilige Umsetzung von Gamification auf ihren Nutzen hin zu untersuchen und zu bewerten.
+
+Ein mögliches Anwendungsfeld für Gamification ist die Kommandozeile.
+Die Kommandozeile ist zentrales Element moderner Betriebssysteme und für die Softwareentwicklung und Administration unerlässlich. Da die Kommandozeile eine rein textbasierte Schnittstelle bietet, stellt diese für viele Einsteiger eine neue Art der Mensch-Maschine-Interaktion dar. Das Erlernen eben dieser kann anfänglich mit einem hohen Maß an Frustration verbunden sein. So ist es wenig verwunderlich, dass es eine Vielzahl unterschiedlicher Spiele gibt, deren Ziel darin besteht, die Grundlagen der Kommandozeile spielend zu vermitteln. Diese Art der Spiele wird als Serious Game bezeichnet. Eine kurze Suche\footnote{Link: https://github.com/topics/terminal-game} nach dem Begriff \glqq terminal-game\grqq{} auf der Code-Hosting-Plattform GitHub bringt (Stand Mai 2020) über 300 Ergebnisse hervor. Die dabei am häufigsten verwendeten Spielelemente sind u.a. Abzeichen und Fortschrittsbalken.
+Trotz der offensichtlichen Popularität wurde die Effektivität dieser Spielelemente im Kontext der Kommandozeile bisher nicht empirisch untersucht. Das Ziel dieser Arbeit besteht daher in der Analyse der Wirkung der Spielelemente Abzeichen und Fortschrittsanzeige hinsichtlich Motivation und Leistung.
 
 
 \section{Literatur- und Theorieüberblick}
@@ -46,13 +49,13 @@ Einen ähnlich positiver Effekt auf das Lernverhalten von Studenten konnte durch
 Etwas weniger Forschungsergebnisse finden sich bezüglich des Einsatzes einer Fortschrittsanzeige \citep{koivisto_rise_2019}.
 \cite{olsson_visualisation_2016} kommen in ihrer Arbeit zu dem Ergebnis, dass Fortschrittsbalken eine geeignete Maßnahme ist, um den Überblick der Kursteilnehmer in Online-Umgebungen zu verbessern. Gleichzeitig weisen die Autoren auf einen möglichen positiven Einfluss von Abzeichen auf die Motivation der Teilnehmer hin.
 
-% Kirtik 
+% Kritik 
 Trotz der empirisch belegten Wirksamkeit der genannten Spielmechaniken, sind die Ergebnisse nicht immer eindeutig und positiv.
 So konnten \cite{ortiz_gamification_2017} durch den Einsatz von Abzeichen zwar eine statistisch signifikante Verbesserung des Engagements der Lernenden feststellen.
 Allerdings war keine Verbesserung der Leistung und intrinsischen Motivation erkennbar.
 \cite{toda_dark_2018} weißt sogar auf die Gefahr einer Reduzierung der Leistung, unerwünschter Seiteneffekte und potentiellem Motivationsverlust hin.
 Zu ähnlichen Ergebnissen kommen \cite{liu_examining_2017}.
-So verzeichneten Umfragen mit Fortschrittsbalken geringere Abschlussquoten als Umfragen ohne Fortschrittsindikatoren. \cite{dominguez_gamifying_2013} stellten in einem pädagogischen Kontext fest, dass Abzeichen zwar einen positiven Einfluss auf praktische Aufgaben haben, aber potentiell negativ auf schriftliche Abgaben wirken. Der Einsatz von Spielmechaniken ist damit möglicherweise mit wünschenswerten Effekten auf Leistung, Motivation und Engagement verbunden. Daher sind die Maßnahmen in jedem Einzelfall genau zu überprüfen und auf ihre Wirksamkeit hin zu untersuchen.
+So verzeichneten Umfragen mit Fortschrittsbalken geringere Abschlussquoten als Umfragen ohne Fortschrittsindikatoren. \cite{dominguez_gamifying_2013} stellten in einem pädagogischen Kontext fest, dass Abzeichen zwar einen positiven Einfluss auf praktische Aufgaben haben, aber potentiell negativ auf schriftliche Abgaben wirken. Der Einsatz von Spielmechaniken ist damit möglicherweise mit unerwünschten Effekten auf Leistung, Motivation und Engagement verbunden. Daher sind die Maßnahmen in jedem Einzelfall genau zu überprüfen und auf ihre Wirksamkeit hin zu untersuchen.
 
 % Serious Games
 Serious Games sind Spiele, die nicht ausschließlich der reinen Unterhaltung dienen, sondern primär auf die Vermittlung von Wissen abzielen \citep[S.17]{michael_serious_2005}.
@@ -79,20 +82,18 @@ Anschließend wird der Einfluss der Spielelemente hinsichtlich Motivation und Le
 Die zugrundeliegende Forschungsfrage lautet:
 
 \begin{itemize}
-\item Haben die Spielmechaniken Abzeichen und Fortschrittsbalken einen messbaren Einfluss auf Motivation und Durchhaltevermögen der Teilnehmer (gemessen durch die Anzahl beantworteter Fragen)?
+    \item Welchen Einfluss haben die Spielmechaniken Abzeichen und Fortschrittsbalken auf Motivation und Leistung im Kontext der Kommandozeile?
 \end{itemize}
-
 
 Daraus leiten sich die folgenden Hypothesen ab:
 
 \begin{itemize}
-\item H1: Probanden, die Abzeichen erhalten, beantwortet im Mittel eine höhere Anzahl an
-Fragen als eine Kontrollgruppe ohne Achievements.
-\item H2: Die Integration eines Fortschrittsbalken erhöht die Gesamtzahl beantworteter Fragen gegenüber einer Kontrollgruppe ohne Fortschrittsbalken.
+\item H1: Probanden, die Abzeichen erhalten, beantworten im Mittel eine höhere Anzahl an Fragen als eine Kontrollgruppe ohne Abzeichen.
+\item H2: Probanden, die eine Fortschrittsanzeige sehen, beantworten im Mittel eine höhere Anzahl an Fragen als eine Kontrollgruppe ohne Fortschrittsanzeige.
 \end{itemize}
 
 \subsection{Zielgruppe}
-Die Ergebnisse sind für alle Personen interessant, die Berührungspunkte mit der Kommandozeile habe.
+Die Ergebnisse sind für alle Personen interessant, die Berührungspunkte mit der Kommandozeile haben.
 Hervorzuheben sind insbesondere Schüler und Studenten, die keinerlei bestehende Erfahrung mit einer rein textbasierten Nutzerschnittstelle haben.
 Die entstehende Anwendung könnte zukünftig dazu dienen, Einsteigern bei dem Erlernen der Kommandozeile zu unterstützen.
 Gleichzeitig liefert die Arbeit weitere empirische Daten hinsichtlich der Wirkung von Abzeichen und Fortschrittsanzeige.
@@ -109,9 +110,9 @@ In einem Pretest der Anwendung soll diese auf ihren Unterhaltungswert geprüft w
 Die Teilnehmer werden randomisiert und dauerhaft einer von drei möglichen Versuchsgruppen zugewiesen:
 
 \begin{itemize}
-\item Eine Kontrollgruppe, in welcher die Probanden die Fragen ohne die Unterstützung durch ein Spielelement beantworten. 
-\item  Eine Experimentalgruppe, die durch das Spielelement Abzeichen unterstützt wird.
-\item  Eine Experimentalgruppe, die durch das Spielelement Fortschrittsanzeige unterstützt wird. 
+    \item Eine Kontrollgruppe, in welcher die Probanden die Fragen ohne die Unterstützung durch ein Spielelement beantworten. 
+    \item  Eine Experimentalgruppe, die durch das Spielelement Abzeichen unterstützt wird.
+    \item  Eine Experimentalgruppe, die durch das Spielelement Fortschrittsanzeige unterstützt wird. 
 \end{itemize}
 
 Die Gruppen unterscheiden sich ausschließlich hinsichtlich der eingesetzten Spielelemente.
@@ -122,9 +123,17 @@ Das Spielelement Abzeichen wird durch fünf verschiedene Abzeichen realisiert. D
 
 Das Spielelement Fortschrittsanzeige wird durch einen Balken in der oberen, linken Ecke des Konsolenfensters realisiert. Dieser wird abhängig von der Anzahl beantworteter Fragen gefüllt. Dieser wird aber nur in zufälligen Abständen aktualisiert. Dies stellt sicher, dass die Teilnehmer nicht direkt auf die Dauer des Experimentes schließen können.
 
-Das Experiment soll über einen möglichst langen Zeitraum laufen. Als Mindestdauer gilt eine Woche. Anschließend erfolgt eine quantitative Auswertung der Ergebnisse. Dabei werden nur Teilnehmer, die mindestens eine Fragen beantwortet haben, berücksichtigt. Mehrfachteilnahmen werden durch die Überprüfung der IP-Adresse ausgeschlossen. In diesem Fall gilt nur die erste Teilnahme. 
+Nach dem Beenden des Experiments sollen die Teilnehmer ihre persönliche Einstellung hinsichtlich empfundener Motivation angeben. Dazu verwende ich eine Frage entsprechend der 5-Stufigen-Lickert-Skala. Konkret sollen die Teilnehmer folgende Frage beantworten:
 
-Der Einfluss der unabhängigen Variablen, Abzeichen und Fortschrittsanzeige, auf die abhängige Variable Motivation wird durch die Anzahl beantworteter Fragen gemessen. Der Vergleich der mittleren Anzahl beantworteter Fragen zwischen Experimentalgruppe und Kontrollgruppen gibt anschließend Auskunft über den Effekt der unabhängigen Variablen.
+\begin{description}
+\item[Frage]\hfill \\ Wie sehr stimmst du folgender Aussage zu: \textit{Ich fühlte mich bei der Beantwortung der Fragen motiviert.} ?
+\item[Antwortmöglichkeiten]\hfill \\ trifft zu (1), trifft eher zu (2), teils-teils (3), trifft eher nicht zu (4), trifft nicht zu (5)
+\end{description}
+
+Ich plane mindestens 150 Teilnehmer zu finden. Anschließend erfolgt eine quantitative Auswertung der Ergebnisse. Dabei werden nur Teilnehmer, die mindestens eine Frage beantwortet haben, berücksichtigt. Mehrfachteilnahmen werden durch die Überprüfung der IP-Adresse ausgeschlossen. In diesem Fall gilt nur die erste Teilnahme. 
+
+Leistung messe ich durch die Anzahl beantworteter Fragen. 
+Motivation messe ich durch die Auswertung der finalen Frage entsprechend der Lickert-Skala. Zusätzlich dokumentiere ich die Menge an Zeit, die die Teilnehmer für das Experiment aufwenden. Dies geschieht unter der Annahme, dass motivierte Teilnehmer mehr Zeit investieren. So wird der Effekt der unabhängigen Variablen, Abzeichen auf Motivation und Leistung quantifizierbar gemacht.
 
 \section{Zeitplan}
 
